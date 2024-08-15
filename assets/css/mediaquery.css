@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+    .head_bar {
+        padding: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    .input_section .isi_kotak form button {
+        width: 50%;
+    }
+
+    .search_section form {
+        grid-template-columns: auto 1fr;
+    }
+
+    .search_section p {
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .head_bar {
+        padding: 82px;
+    }
+
+    main {
+        padding: 82px;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    .search_section form input {
+        width: 100%;
+    }
+
+    .search_section form button {
+        width: 20vw;
+    }
+}
